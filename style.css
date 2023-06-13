@@ -14,16 +14,15 @@ body {
   width: 50vw;
   height: 60vh;
   transform: translate(-50%, -50%);
- 
+  box-shadow: inset -8px -8px 12px rgb(155, 103, 117),
+    inset 8px 8px 12px rgb(201, 95, 114);
+  border-radius: 50px;
 }
 .wrapper {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: inset -8px -8px 12px rgb(155, 103, 117),
-  inset 8px 8px 12px rgb(201, 95, 114);
-border-radius: 50px;
 }
 
 .wrapper img {
