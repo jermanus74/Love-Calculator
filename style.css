@@ -20,7 +20,7 @@ body {
   /* width: 50vw; */
   /* height: 60vh; */
   transform: translate(-50%, -50%);
- 
+ background-color: hwb(350 18% 45%);
 }
 .wrapper {
   position: absolute;
