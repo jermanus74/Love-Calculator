@@ -6,6 +6,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: pink;
+    box-shadow: inset -8px -8px 12px rgb(155, 103, 117),
+               inset 8px 8px 12px rgb(201, 95, 114);
+               border-radius: 50px;
 }
 .container{
     position: absolute;
@@ -14,9 +17,7 @@ body{
     width: 50vw;
     height: 60vh;
     transform: translate(-50%,-50%);
-    box-shadow: inset -8px -8px 12px rgb(155, 103, 117),
-               inset 8px 8px 12px rgb(201, 95, 114);
-               border-radius: 50px;
+    
 }
 .wrapper{
     position: absolute;
